@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Рекомендация соотношения матрица-наполнитель</title>
+</head>
+<body>
+    <h1>Введите параметры:</h1>
+    <form method="POST">
+        <label for="density">Плотность, кг/м3:</label>
+        <input type="number" step="0.01" name="density" required><br>
+
+        <label for="modulus">Модуль упругости, ГПа:</label>
+        <input type="number" step="0.01" name="modulus" required><br>
+
+        <label for="hardener">Количество отвердителя, м.%:</label>
+        <input type="number" step="0.01" name="hardener" required><br>
+
+        <label for="epoxy">Содержание эпоксидных групп,%_2:</label>
+        <input type="number" step="0.01" name="epoxy" required><br>
+
+   	  <label for="flash_point">Температура вспышки, С:</label>
+   	  <input type="number" step="0.01" name="flash_point" required><br>
+
+   	  <label for="surface_density">Поверхностная плотность, г/м2:</label>
+  	  <input type="number" step="0.01" name="surface_density" required><br>
+
+   	  <label for="resin_consumption">Потребление смолы, г/м2:</label>
+   	  <input type="number" step="0.01" name="resin_consumption" required><br>
+
+   	  <label for="weave_angle">Угол нашивки, град:</label>
+   	  <input type="number" step="0.01" name="weave_angle" required><br>
+
+        <label for="weave_step">Шаг нашивки:</label>
+    	  <input type="number" step="0.01" name="weave_step" required><br>
+
+    	  <label for="weave_density">Плотность нашивки:</label>
+    	  <input type="number" step="0.01" name="weave_density" required><br>
+
+    	  <label for="tensile_modulus">Модуль упругости при растяжении, ГПа:</label>
+   	  <input type="number" step="0.01" name="tensile_modulus" required><br>
+
+  	  <label for="tensile_strength">Прочность при растяжении, МПа:</label>
+  	  <input type="number" step="0.01" name="tensile_strength" required><br>
+
+   	  <input type="submit" value="Рассчитать">
+</form>
